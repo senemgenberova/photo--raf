@@ -1,0 +1,62 @@
+/*Costume css*/
+
+.logo-wrap a h2{
+
+  font-family: Bifur; 
+  font-weight: unset;
+  font-size: 35px;
+}
+
+.navbar-nav li a{
+    text-transform: uppercase;
+    transition: all .6s ease-in-out;
+}
+
+#nav-trigger{
+    width: 40px;
+    background-color: #171717;
+}
+
+#nav-icon-trigger span{
+    background-color:white;
+}
+
+.instagram:hover{
+    /*background-image:  radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%) !important;
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;*/
+    color:#A333B4 !important;
+}
+
+.facebook:hover{
+    color: #4267B2 !important;
+}
+
+.twitter:hover{
+    color: #1DA1F2 !important;
+}
+
+.vimeo:hover{
+    color:#2A2A2A !important;
+}
+
+.gmap-btn{
+    text-transform: capitalize;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .logo-wrap a h2 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 350px) {
+    .logo-wrap a h2 {
+        margin-top: 15px;
+        font-size: 25px;
+    }
+}
