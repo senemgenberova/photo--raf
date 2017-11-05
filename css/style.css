@@ -1882,8 +1882,12 @@ ol.numbers {
 /*-------------------------------------------------------*/
 /* Hero Img
 /*-------------------------------------------------------*/
+.pl-0 {
+  padding-left: 0px !important;
+} 
+
 .pl-80 {
-  padding-left: 80px !important;
+  padding-left: 80px ;
 }
 
 @media only screen and (max-width: 991px) {

@@ -401,19 +401,19 @@
   -------------------------------------------------------*/
   function initMasonry(){
 
-    var $masonry = $('#masonry-grid');
-    $masonry.imagesLoaded( function() {
-      $masonry.isotope({
-        itemSelector: '.work-item',
-        layoutMode: 'masonry',
-        percentPosition: true,
-        resizable: false,
-        isResizeBound: false,
-        masonry: { columnWidth: '.work-item.quarter' }
-      });
-    });
+    // var $masonry = $('#masonry-grid');
+    // $masonry.imagesLoaded( function() {
+    //   $masonry.isotope({
+    //     itemSelector: '.work-item',
+    //     layoutMode: 'masonry',
+    //     percentPosition: true,
+    //     resizable: false,
+    //     isResizeBound: false,
+    //     masonry: { columnWidth: '.work-item.quarter' }
+    //   });
+    // });
 
-    $masonry.isotope();
+    // $masonry.isotope();
   }
 
   // Isotope filter

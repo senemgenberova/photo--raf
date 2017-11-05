@@ -1,7 +1,7 @@
 /*Costume css*/
 
+/*menu*/
 .logo-wrap a h2{
-
   font-family: Bifur; 
   font-weight: unset;
   font-size: 35px;
@@ -9,7 +9,7 @@
 
 .navbar-nav li a{
     text-transform: uppercase;
-    transition: all .6s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 #nav-trigger{
@@ -41,22 +41,70 @@
     color:#2A2A2A !important;
 }
 
-.gmap-btn{
-    text-transform: capitalize;
+/*about.html*/
+.flickity-page-dots .dot{
+    border: 2px solid #171717;
 }
 
+.flickity-page-dots .dot.is-selected {
+    background: #171717;
+}
 
+.darkHeading{
+    color: #171717;
+}
 
+.paddingValues{
+    padding: 70px 0 50px 0;
+}
 
-@media (max-width: 991px) {
+#myGear h3{
+    color: #fff;
+}
+
+.list-no-dividers li a{
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+/*photos.html*/
+.album{
+    padding: 10px 11px 0px 51px
+}
+
+.pl-40{
+    padding-left: 40px;
+}
+
+@media only screen and (max-width: 991px) {
     .logo-wrap a h2 {
         margin-top: 10px;
     }
+
+    .paddingValues{
+        padding: 40px 0 50px 0;
+    }
+
+    .album{
+        padding: 70px 0 0; 
+    }
+
+    .nav-type-1{
+        position: fixed;
+    } 
 }
 
-@media (max-width: 350px) {
+@media only screen and (max-width: 480px){
+    .paddingValues .heading-row h2{
+        font-size: 25px;
+    }
+    
     .logo-wrap a h2 {
         margin-top: 15px;
         font-size: 25px;
     }
 }
+
+/*@media (max-width: 350px) {
+    
+}*/
