@@ -16,7 +16,7 @@
 
 
   // Init
-  initMasonry();
+  // initMasonry();
   initFlexSlider();
   initFullpage();
 
@@ -41,6 +41,21 @@
     }
   });
 
+
+  if($("img.mfp-img").css("display") == "block"){
+    $("button.mfp-arrow-left").attr("title","Öncəki");
+    $("button.mfp-arrow-right").attr("title","Sonrakı");
+    console.log("oldu")
+  }
+
+  $(".work-container").click(function(){
+    console.log("1");
+      if($("img.mfp-img").css("display") == "block"){
+        $("button.mfp-arrow-left").attr("title","Öncəki");
+        $("button.mfp-arrow-right").attr("title","Sonrakı");
+        console.log("oldu")
+      }
+  });
 
   /* Sidenav
   -------------------------------------------------------*/
@@ -306,6 +321,17 @@
     closeBtnInside:false,
     tLoading: 'Loading image #%curr%...'
   });
+
+  // Multiple gallery 
+  $('.work-img').each(function() { 
+    $(this).magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+          enabled:true
+        }
+    });
+});
 
 
   /* Background Image Hover
